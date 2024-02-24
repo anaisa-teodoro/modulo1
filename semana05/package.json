@@ -1,0 +1,16 @@
+{
+  "name": "trello_semana_5",
+  "version": "1.0.0",
+  "main": "exercicios_semana05.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node script.js"
+  },
+  "keywords": [],
+  "author": "Anaísa M. Teodoro",
+  "license": "ISC",
+  "description": "Exercícios da semana 05 do Trello",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
