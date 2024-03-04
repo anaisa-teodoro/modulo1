@@ -1,44 +1,9 @@
-/*function getUserInfo() {
-    // Retorna uma nova Promise
-    return new Promise((resolve, reject) => {
-        let user;
-        // Define um atraso de 2000 milissegundos
-        setTimeout(() => {
-            // Cria um objeto user com propriedades nome, idade e email
-            user = {
-                nome: "Anaísa",
-                idade: 38,
-                email: "anaisateodoro@hotmail.com",
-            };
-            // Resolve a promessa com o objeto user
-            resolve(user);
-        }, 2000);
+fetch('https://api.thecatapi.com/v1/images/search?limit=10')
+  .then(response => response.json())
+  .then(data => {
+    data.forEach(cat => {
+      const imageUrl = cat.url;
+      console.log(imageUrl);
     });
-}
-
-function playGetUser() {
-    return getUserInfo();
-}
-playGetUser().then(userInfo => {
-    console.log(userInfo);
-});
-*/
-function getUserInfo() {
-    return new Promise((resolve, reject) => {
-        setTimeout(() => {
-            let user = {
-                nome: "Anaísa",
-                idade: 38,
-                email: "anaisateodoro@hotmail.com",
-            };
-            resolve(user);
-        }, 2000);
-    });
-}
-
-async function playGetUser() {
-    let retorno = await getUserInfo();
-    console.log(retorno);
-}
-
-playGetUser();
+  })
+  .catch(error => console.error('Erro ao obter imagens de gatos:', error));
