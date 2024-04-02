@@ -18,6 +18,8 @@
 - POO em JavaScript
 ## Semana 08
 - Introdução, Primeiros passos, Download e instalação pgAdmin
+## Semana 09
+- Introdução ao framework Express no Node
 
 
 
