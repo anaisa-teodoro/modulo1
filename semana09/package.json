@@ -1,0 +1,15 @@
+{
+  "name": "semana09",
+  "version": "1.0.0",
+  "description": "Exercícios da Semana 09 - Node.js e Express",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["nodejs", "express", "semana09","futuroDev","nature"],
+  "author": "Anaísa Mayara Teodoro",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
