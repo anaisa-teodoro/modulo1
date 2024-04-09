@@ -20,6 +20,9 @@
 - Introdução, Primeiros passos, Download e instalação pgAdmin
 ## Semana 09
 - Introdução ao framework Express no Node
+- ## Semana 10
+- Crud tarefas e teste no Http Client
+
 
 
 
