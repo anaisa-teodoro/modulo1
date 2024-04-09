@@ -1,0 +1,80 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "collectionsS10",
+    "dateExported": "2024-04-09T03:23:41.700Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "4bdfb61a-cc7a-4b95-88d6-516e49e398ca",
+            "colId": "eda104ca-747d-4656-9875-6e74381c284b",
+            "containerId": "",
+            "name": "GET",
+            "url": "http://localhost:3333/tarefas",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-04-09T02:46:26.525Z",
+            "modified": "2024-04-09T03:22:29.610Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"titulo\": \"Estudar Node.js\",\n  \"descricao\": \"Aprender sobre módulos, middleware e rotas.\",\n  \"data_conclusao\": \"2024-04-08\"\n}\n",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "233d8141-3f6f-4309-bbab-566a88dd0e45",
+            "colId": "eda104ca-747d-4656-9875-6e74381c284b",
+            "containerId": "",
+            "name": "POST",
+            "url": "http://localhost:3333/tarefas",
+            "method": "POST",
+            "sortNum": 35000,
+            "created": "2024-04-09T02:46:03.505Z",
+            "modified": "2024-04-09T03:18:26.335Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "[{\n  \"id\":2,\n  \"titulo\": \"Git e Github\",\n  \"descricao:\":\"Estudar git e github\",\n  \"data_conclusao\":\"2024-04-06\"},\n  \n  {\n  \"id\":3,\n   \"titulo\": \"VsCode\",\n  \"descricao:\":\"Estudar atalhos da IDE\",\n  \"data_conclusao\":\"2024-04-07\"},\n  \n  {\n  \"id\":4,\n  \"titulo\": \"Javascript\",\n  \"descricao:\":\"Estudar linguagem de programação para o Node\",\n  \"data_conclusao\":\"2024-04-08\"\n  \n}]",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "f66d7138-330d-4f17-9964-ce08488467fa",
+            "colId": "eda104ca-747d-4656-9875-6e74381c284b",
+            "containerId": "",
+            "name": "PUT",
+            "url": "http://localhost:3333/tarefas/1",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2024-04-09T02:46:34.016Z",
+            "modified": "2024-04-09T03:19:31.426Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"titulo\": \"Estudar Express.js\",\n  \"descricao\": \"Aprender sobre rotas, middleware e templates.\"\n}\n",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "093abb6b-6161-40ba-a0d6-2e56dabf5f59",
+            "colId": "eda104ca-747d-4656-9875-6e74381c284b",
+            "containerId": "",
+            "name": "DELETE",
+            "url": "http://localhost:3333/tarefas/3",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2024-04-09T02:46:50.873Z",
+            "modified": "2024-04-09T03:20:16.420Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
