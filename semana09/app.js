@@ -33,17 +33,20 @@ const express = require('express');
 const app = express();
 
 // Middleware para registrar informações sobre as solicitações
-app.use(express.json());
 app.use((req, res, next) => {
-    const method = req.method;
-    const url = req.originalUrl;
-    const date = new Date();
+  try {
+      const method = req.method;
+      const url = req.originalUrl;
+      const date = new Date();
 
-    console.log(`Método HTTP: ${method}`);
-    console.log(`URL: ${url}`);
-    console.log(`Hora: ${date}`);
-
-    next();
+      console.log(`Método HTTP: ${method}`);
+      console.log(`URL: ${url}`);
+      console.log(`Hora: ${date}`);
+      
+      next(); // Pass control to the next middleware
+  } catch (err) {
+      next(err); // Pass the error to Express
+  }
 });
 
 // Rotas da aplicação
