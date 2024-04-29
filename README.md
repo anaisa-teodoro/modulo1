@@ -1,9 +1,7 @@
 # Módulo 1 - FuturoDev [Nature] 
 
 ## Semana 01
-
 - Como funciona a internet?
-
 ## Semana 02
 - Introdução a Linguagem e Lógica de Programação
 ## Semana 03
