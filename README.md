@@ -18,7 +18,10 @@
 - Introdução, Primeiros passos, Download e instalação pgAdmin
 ## Semana 09
 - Introdução ao framework Express no Node
-
+## Semana 10
+- Sequelize
+## Semana 11
+- API Rest
 
 
 
