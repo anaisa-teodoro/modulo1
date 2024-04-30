@@ -22,6 +22,9 @@
 - Sequelize
 ## Semana 11
 - API Rest
-
+## Semana 12
+- Jwt
+## Semana 13
+- Gitflow
 
 
